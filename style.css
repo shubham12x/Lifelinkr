@@ -1,8 +1,12 @@
+
+html{
+    overflow-x: hidden;
+}
 body {
     margin: 0;
     font-family: sans-serif;
-
-    overflow-x: hidden;
+    width: 100vw;
+    overflow-x: hidden !important;
 }
 
 .container {
@@ -111,7 +115,7 @@ body {
     position: fixed;
     top: 4rem;
     height: 3rem;
-    width: 100%;
+    width: 100vw;
     z-index: 10;
 }
 
@@ -583,9 +587,9 @@ p.h7 {
 
 
 @media (min-width: 768px) {
-    .body {
+    /* .body {
         flex-direction: row;
-    }
+    } */
 
     .container7 {
         flex-direction: row;
